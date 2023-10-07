@@ -1,7 +1,95 @@
-<a href="https://t.me/qiyyy2023">
-<img src="2.jpg" alt="客服">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>广告网页</title>
+    <style>
+        /* 广告容器样式 */
+        .ad-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+        
+        /* 广告样式 */
+        .ad {
+            width: 30%;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        /* 图片样式 */
+        .ad-image {
+            width: 100%;
+            max-height: none;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        
+        /* 标题样式 */
+        .ad-title {
+            position: absolute;
+            top: 10px;
+            left: 0;
+            right: 0;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            padding: 5px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+            margin: 0;
+        }
+        
+        /* 描述样式 */
+        .ad-description {
+            font-size: 14px;
+            color: #666;
+            margin: 0;
+        }
 
-<a href="http://jnty8244.vip">
-<img src="1.jpg" alt="网址">
-</a>
+        /* 新容器样式 */
+        .ad-row {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="ad-container">
+        <div class="ad">
+            <a href="https://t.me/qiyyy2023">
+                <img class="ad-image" src="1.jpg" alt="客服">
+            </a>
+            <h2 class="ad-title">点击跳转客服</h2>
+            <p class="ad-description">需外网</p>
+        </div>
+        <div class="ad-row">
+            <div class="ad">
+                <a href="http://jnty8244.vip">
+                    <img class="ad-image" src="2.jpg" alt="江南体育">
+                </a>
+                <h2 class="ad-title">点击跳转江南体育</h2>
+                <p class="ad-description">跳转浏览器点击进入</p>
+            </div>
+            <div class="ad">
+                <a href="https://botv4.tv?parent_icode=546974081">
+                    <img class="ad-image" src="3.jpg" alt="波波直播">
+                </a>
+                <h2 class="ad-title">点击跳转波波直播</h2>
+                <p class="ad-description">跳转浏览器点击进入</p>
+            </div>
+        </div>
+        <!-- 如果需要更多广告，可以添加更多 <div class="ad">...</div> -->
+    </div>
+</body>
+</html>
 
+</html>
